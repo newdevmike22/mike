@@ -1,4 +1,19 @@
-import styled from "styled-components";
+import styled, { keyframes, css } from "styled-components";
+
+const navItemFade = keyframes`
+    from {
+        opacity: 0;
+        transform: translate(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+`;
+
+const navItemAnimation = ({index}) => css`
+    animation: ${navItemFade} 0.5s ease forwards ${index / 6 + 0.5}s
+`;
 
 export const Nav = styled.nav`
     height: 80px;
@@ -92,5 +107,49 @@ export const NavList = styled.ul`
         flex-direction: column; 
         z-index: 998;
         transition: ${({theme}) => theme.transition};
+    }
+`;
+
+export const NavItem = styled.li`
+    margin: 0.2rem 0.7rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @media(max-width: ${({theme}) => theme.mobile}) {
+        opacity: 0;
+        margin: 1.2rem 0;
+        ${({menuOpen}) => menuOpen ? navItemAnimation : null }
+    }
+`;
+
+export const NavLink = styled.a`
+    text-transform: uppercase; 
+    color: ${({theme}) => theme.colors.blueFour};
+    letter-spacing: 1.5px;
+
+    &::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 0%;
+        background: linear-gradient(
+            135deg,
+            #f9680e 0%,
+            #f2df07 100%);
+        transition: all ease-in-out 300ms;
+    }
+
+    &:hover {
+        &::after {
+            width: 100%;
+        }
+    }
+
+    @media(max-width: ${({theme}) => theme.mobile}) {
+        color: white;
+
+
     }
 `;

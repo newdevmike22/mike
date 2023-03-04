@@ -22,8 +22,8 @@ a {
     color: ${({theme}) => theme.colors.purple};
     transition: all 250ms ease-in-out;
 
-    &::hover {
-        color: ${({theme}) => theme.colors.blueThree}; 
+    &:hover {
+        color: ${({theme}) => theme.colors.orange}; 
     }
 }
 

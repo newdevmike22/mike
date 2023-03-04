@@ -1,6 +1,7 @@
 import { useState } from "react"
-import { LineOne, LineThree, LineTwo, Logo, MenuIcon, Nav, NavList } from "../styles/layout/NavStyles"
+import { LineOne, LineThree, LineTwo, Logo, MenuIcon, Nav, NavItem, NavLink, NavList } from "../styles/layout/NavStyles"
 import logo from "../../images/mike_logo4.png"
+import { NavItems } from "../../data/NavItems";
 
 export const Navbar = () => {
 
@@ -20,8 +21,15 @@ export const Navbar = () => {
                     <LineThree menuOpen={menuOpen}/>
                 </MenuIcon>
                 <NavList menuOpen={menuOpen}>
-                    <li>About</li>
-                    <li>Services</li>
+                    {NavItems && NavItems.map((navItem, index) => (
+                        <NavItem 
+                            key={index} 
+                            index = {index} 
+                            menuOpen = {menuOpen} 
+                            onClick = {() => setMenuOpen(false)}>
+                            <NavLink href="">About</NavLink>
+                        </NavItem>       
+                    ))}
                 </NavList>
             </Nav>
         </>
