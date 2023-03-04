@@ -14,6 +14,7 @@ html {
     scroll-behavior: smooth;
     color: ${({theme}) => theme.colors.blueOne};
     background: ${({theme}) => theme.colors.white};
+    font-size: 12px;
 }
 
 a {
