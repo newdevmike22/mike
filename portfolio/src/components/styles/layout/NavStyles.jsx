@@ -25,10 +25,11 @@ export const Nav = styled.nav`
     z-index: 98;
     transition: all 1s ease-in-out;
     background: #fff;
+    top: ${({scrollDirection}) => scrollDirection === "down" ? "-80px" : "40px"};
 `;
 
 export const Logo = styled.img`
-    width: 130px;
+    width: 140px;
 `;
 
 export const MenuIcon = styled.div`
@@ -54,6 +55,7 @@ export const LineOne = styled.div`
     background: linear-gradient(
         135deg,
         #f9680e 0%,
+        #f2df07 50%,
         #fff 100%
     );
     transition: ${({theme}) => theme.transition};
@@ -67,6 +69,7 @@ export const LineTwo = styled.div`
     background: linear-gradient(
         135deg,
         #f9680e 0%,
+        #f2df07 50%,
         #fff 100%
     );
     opacity: ${({menuOpen}) => menuOpen ? 0 : 1};
@@ -81,6 +84,7 @@ export const LineThree = styled.div`
     background: linear-gradient(
         135deg,
         #f9680e 0%,
+        #f2df07 50%,
         #fff 100%
     );
     transition: ${({theme}) => theme.transition};
@@ -137,7 +141,8 @@ export const NavLink = styled.a`
         background: linear-gradient(
             135deg,
             #f9680e 0%,
-            #f2df07 100%);
+            #f2df07 50%,
+            #fff 100%);
         transition: all ease-in-out 300ms;
     }
 
@@ -149,7 +154,51 @@ export const NavLink = styled.a`
 
     @media(max-width: ${({theme}) => theme.mobile}) {
         color: white;
+    }
+`;
 
+export const Profile = styled.div`
+    display: none;
 
+    @media(max-width: ${({theme}) => theme.mobile}) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            height: 9rem;
+            width: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 1.5rem 0;
+        }
+    }
+`;
+
+export const SocialIcon = styled.div`
+    display: none;
+
+    @media(max-width: ${({theme}) => theme.mobile}) {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            margin: 0 0.5rem;
+            font-size: 2rem;
+        }
+    }
+`;
+
+export const SocialLink = styled.a`
+    color: ${({theme}) => theme.colors.white};
+
+    &:hover {
+        color: #f2df07;
+    }
+
+    @media(max-width: ${({theme}) => theme.mobile}) {
+        color: white;
     }
 `;
