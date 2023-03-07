@@ -16,7 +16,7 @@ const navItemAnimation = ({index}) => css`
 `;
 
 export const Nav = styled.nav`
-    height: 80px;
+    height: 160px;
     width: 100%;
     padding: 0 20px;
     display:flex;
@@ -25,11 +25,16 @@ export const Nav = styled.nav`
     z-index: 98;
     transition: all 1s ease-in-out;
     background: #fff;
-    top: ${({scrollDirection}) => scrollDirection === "down" ? "-80px" : "40px"};
+    top: ${({scrollDirection}) => scrollDirection === "down" ? "-160px" : "80px"};
 `;
 
 export const Logo = styled.img`
-    width: 140px;
+    width: 125px;
+    margin-left: 0.8rem;
+
+    @media(max-width: ${({theme}) => theme.mobile}) {
+        margin-left: 0.1rem;
+    }
 `;
 
 export const MenuIcon = styled.div`
@@ -96,7 +101,7 @@ export const NavList = styled.ul`
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-size: 1rem;
+    font-size: 1.10rem;
     flex-wrap: wrap;
 
     @media(max-width: ${({theme}) => theme.mobile}) {
@@ -115,7 +120,7 @@ export const NavList = styled.ul`
 `;
 
 export const NavItem = styled.li`
-    margin: 0.2rem 0.7rem;
+    margin: 0.2rem 0.4rem 0.2rem 0.4rem;
 
     &:last-child {
         margin-right: 0;
