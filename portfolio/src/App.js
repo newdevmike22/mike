@@ -1,6 +1,8 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./components/GlobalSyles";
 import { Navbar } from "./components/layout/Nav";
+import { TopBanner } from "./components/layout/TopBanner";
+import { Hero } from "./components/sections/Hero";
 
 const App = () => {
 
@@ -23,7 +25,9 @@ const App = () => {
   return <>
   <ThemeProvider theme={theme}>
     <GlobalStyles/>
+    <TopBanner/>
     <Navbar/>
+    <Hero/>
   </ThemeProvider>
   </>
 }

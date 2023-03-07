@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const CTAButton = styled.a`
-    background: ${({primary, theme }) => primary ? theme.colors.green : "none"};
-    color: ${({primary, theme }) => primary ? theme.colors.white : theme.colors.green};
+    background: ${({primary, theme }) => primary ? theme.colors.purple : "none"};
+    color: ${({primary, theme }) => primary ? theme.colors.white : theme.colors.white};
     padding: 10px 20px;
     margin: ${({margin}) => margin};
-    border: 2px solid ${({theme}) => theme.colors.green};
+    border: 2px solid ${({theme}) => theme.colors.white};
     border-radius: 5px;
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
@@ -14,8 +14,8 @@ export const CTAButton = styled.a`
     display: inline-block;
 
     &:hover {
-        background: ${({primary, theme }) => primary ? theme.colors.orange : "none"};
-        color: ${({primary, theme }) => primary ? theme.colors.white : theme.colors.orange}; 
-        border: 2px solid ${({theme}) => theme.colors.orange};      
+        background: ${({primary, theme }) => primary ? theme.colors.orange : theme.colors.blueTwo};
+        color: ${({primary, theme }) => primary ? theme.colors.white : theme.colors.white}; 
+        border: 2px solid ${({theme}) => theme.colors.white};      
     }
 `;
