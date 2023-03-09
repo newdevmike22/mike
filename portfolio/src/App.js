@@ -2,7 +2,9 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./components/GlobalSyles";
 import { Navbar } from "./components/layout/Nav";
 import { TopBanner } from "./components/layout/TopBanner";
+import { About } from "./components/sections/About";
 import { Hero } from "./components/sections/Hero";
+import { Container } from "./components/styles/layout/common/ContainerStlyes";
 
 const App = () => {
 
@@ -13,7 +15,7 @@ const App = () => {
       blueTwo: "#070369",
       blueThree: "#222cf2",
       blueFour: "#03098c",
-      green: "#00ce9e",
+      green: "#076b02",
       orange: "#f9680e",
       purple: "#663399",
       yellow: "#f2df07",
@@ -28,6 +30,9 @@ const App = () => {
     <TopBanner/>
     <Navbar/>
     <Hero/>
+    <Container>
+      <About/>
+    </Container>
   </ThemeProvider>
   </>
 }

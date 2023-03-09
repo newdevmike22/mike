@@ -29,7 +29,7 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.img`
-    width: 125px;
+    width: 140px;
     margin-left: 0.8rem;
 
     @media(max-width: ${({theme}) => theme.mobile}) {

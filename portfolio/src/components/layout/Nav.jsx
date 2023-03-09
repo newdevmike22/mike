@@ -3,7 +3,7 @@ import { LineOne, LineThree, LineTwo, Logo, MenuIcon, Nav, NavItem, NavLink, Nav
 import logo from "../../images/MikeLogo.png";
 import profilePic from "../../images/Mike_Photo.png";
 import { NavItems } from "../../data/NavItems";
-import {FaLinkedin, FaGithubAlt, FaTwitter} from "react-icons/fa";
+import {FaLinkedin, FaGithubAlt, FaTwitter, FaEnvelope} from "react-icons/fa";
 import useScrollDirection from "../../hooks/ScrollDirection";
 
 export const Navbar = () => {
@@ -53,6 +53,9 @@ export const Navbar = () => {
                                         </SocialLink>
                                         <SocialLink href="https://twitter.com/DreamosophyMike" target="_blank">
                                             <FaTwitter/>
+                                        </SocialLink>
+                                        <SocialLink href="mailto:themikedodson@gmail.com" target="_blank">
+                                            <FaEnvelope/>
                                         </SocialLink>
                                     </SocialIcon>
                                 ) : null}
