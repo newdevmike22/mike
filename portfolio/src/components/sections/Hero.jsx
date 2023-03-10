@@ -1,6 +1,6 @@
 import { ArrowDown, DevIcon, HeroContent, HeroSocialIcons, HeroStyles, SocialIcon } from "../styles/layout/sections/HeroStyles";
 import { CTAButton } from "../styles/layout/common/CTAButtonStyles";
-import { FaArrowDown, FaLinkedin, FaGithubAlt, FaTwitter, FaEnvelope, FaHtml5, FaCss3Alt, FaReact, FaSass } from "react-icons/fa";
+import { FaArrowDown, FaLinkedin, FaGithubAlt, FaTwitter, FaEnvelope, FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 
 export const Hero = () => {
@@ -9,12 +9,11 @@ export const Hero = () => {
             <HeroContent>
                 <h1>Michael Dodson</h1>
                 <h3>Front-End Web Developer</h3>
-                <p>HTML • CSS • JavaScript • React • Sass</p>
+                <p>HTML • CSS • JavaScript • React</p>
                     <DevIcon><FaHtml5/></DevIcon>
                     <DevIcon><FaCss3Alt/></DevIcon>
                     <DevIcon><DiJavascript1/></DevIcon>
                     <DevIcon><FaReact/></DevIcon>
-                    <DevIcon><FaSass/></DevIcon>
                 <div>
                     <CTAButton href="#projects">Projects</CTAButton>
                     <CTAButton href="#contact" primary margin="0 0 0 20px">Hire Me</CTAButton>
