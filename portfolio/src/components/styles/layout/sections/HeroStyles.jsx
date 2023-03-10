@@ -60,6 +60,13 @@ export const HeroStyles = styled.section`
 
     @media(max-width: ${({ theme }) => theme.mobile }) {
         height: 55vh;
+        background: linear-gradient(
+        135deg,
+        rgba(3, 10, 140, 0.65) 0%,
+        rgba(12, 2, 84, 0.9) 100%
+    ),
+    url("https://lh3.googleusercontent.com/fLgZwLyCKBJuUm6huE1ONVbc8GgUvR5MSuPEiVpbG4OdBsd7ewx1fXVK7K0VjB-MY4bO2q12IUVxXoUhKYl6MMd-eiY1DNheUBvd0EZJ1CUIKWWQsDkmcjtvfH77mPKkrQrH1LYOxK3JCc9VyU__I0gBikd39psMChRqUx_mS5iXjm3dFlc3wCUNnQ-JpAbCUvFcYzXJcaA2HweQMHGEwSGs_xamhOdVM8bWxhATPe_jEHf365KCSFq5j2-BK3hNzXIcoHE1yu0aUco5AUgejAG1TmAbawIYmm1k_jGwShU0krHphPNtiqQzwkFkIM9Jt8DNiznS4SuLEX56IX1FZc-C32_K9UZG7HKxdzTS8pA8WMR8Riq9bPdPy-7iNB8-Rz2SZxHgjAKa711zLZkCeEaIDL44QxjN2Cqf8wpckBmzKbgli5G8O8gdJoXpGng5YPNDfQFwtuuMg7RcZ4HY8NNV2Z_iYu_zhoM0jIO3KWdpJcg2Nnppc1M880oWBN1Jvc0LsyPyVIi5zUWKzMGurtX_YlJD5_tP5eFo0P3stb0soH9uojbGkFEA25XpBQ0X_YkwHLWG5ut7LQbYUOlx9F6JKnM-i_vCVSDO9KRCeHji-S6Qi_rL8RPLRrD9ZxGHPwPW8wado9CRVn-Ij_Zdq8tYwBeghyrrb_8sP9G9k2GJDsDBXzVJaXoeefcdTUah9n4r9P3GbpxtY6olZhkpwGAcJUThtJet_glYhoH4bmA36XtrWuEOJkCTU2fpFEjYnOiVTfBd42ZHNpSFMszJox-wwYcTpUMVbjPBg8yHJpLNs7reMneu55yehgOsFDJNiXhTtVRoFdlNNMkNBGyZj0XkbssvNvoL3mSqffI7PNvTBECZO83ojO1883QB_r3WQ6hcWkd-0yUd7XrM9p8ovlw-QcwK19KQAHtvzykcV3igmZrEBuIclb0i3tAurrfOpHoafg7kI0s1mK6y-h-YaQ=w846-h1410-no?authuser=0") center no-repeat;
+    background-size: contain;
     }  
 `;
 
@@ -97,7 +104,7 @@ export const HeroContent = styled.div`
     }
 
     p {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         font-weight: 400;
         text-transform: none;
     }
@@ -118,7 +125,7 @@ export const HeroContent = styled.div`
         }
 
         p {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
         }
     }  
 `;
@@ -147,20 +154,20 @@ export const HeroSocialIcons = styled.div`
     right: 20px;
 
     @media(max-width: ${({ theme }) => theme.mobile }) {
-        bottom: 30px;
+        bottom: 25px;
     }  
 `;
 
 export const SocialIcon = styled.a`
-    height: 3rem;
-    width: 3rem;
+    height: 3.5rem;
+    width: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     background: ${({theme}) => theme.colors.blueTwo};
     cursor: pointer;
-    font-size: 1.65rem;
+    font-size: 2rem;
     margin-bottom: 10px;
 
     svg {
@@ -174,9 +181,9 @@ export const SocialIcon = styled.a`
     }
 
     @media(max-width: ${({ theme }) => theme.mobile }) {
-        font-size: 1.4rem;
-        height: 2.2rem;
-        width: 2.2rem;
+        font-size: 1.6rem;
+        height: 2.8rem;
+        width: 2.8rem;
     }  
 `;
 
