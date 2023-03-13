@@ -5,6 +5,7 @@ import { TopBanner } from "./components/layout/TopBanner";
 import { About } from "./components/sections/About";
 import { Hero } from "./components/sections/Hero";
 import { Container } from "./components/styles/layout/common/ContainerStlyes";
+import { Projects } from "./components/sections/Projects";
 
 const App = () => {
 
@@ -32,6 +33,7 @@ const App = () => {
     <Hero/>
     <Container>
       <About/>
+      <Projects/>
     </Container>
   </ThemeProvider>
   </>
