@@ -7,7 +7,7 @@ import { FaGithub, FaLink } from "react-icons/fa";
 export const Projects = () => {
     return (
         <>
-            <ProjectStyles>
+            <ProjectStyles id="projects">
                 <SectionHeading>
                     <h1>Recent Work</h1>
                 </SectionHeading>

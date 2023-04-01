@@ -8,7 +8,7 @@ export const SectionHeading = styled.div`
         text-transform: uppercase;
         display: inline-block;
         font-size: 4rem;
-        margin: 0.5rem 0;
+        margin: 0.5rem 0 1rem 0;
         position: relative;
 
         &::after {
@@ -30,6 +30,18 @@ export const SectionHeading = styled.div`
         @media(max-width: ${({theme}) => theme.mobile}) {
             font-size: 3rem;
             margin-top: -3rem;
+        }
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.75rem;
+        padding-top: 10px;
+
+        @media(max-width: ${({theme}) => theme.mobile}) {
+            p {
+                font-size: 1.5rem;    
+            }
         }
     }
 `;
