@@ -1,12 +1,12 @@
 export const Project = [
     {
-        thunbnail: "https://lh3.googleusercontent.com/x49jlf3g-HRt94MfctvOZw6cW0xYEwmWnY8AqECPhrYQy9wRuUE_LAcp7IJFTJR9nTQKV5kh04krPU-5IKBHQ9Hkn_EKJ7C7NT4LrF03rqB6iwBynsmMCUIETrutYg84prs4zBQqu13nqSLDZ07oEYN0NuBfTUVD98ICVDlhibKyHi07pQ-nEeLJqj0oPWPR16emAIbF51cMd6bUt5kiWWGQm4xMHSHHEUcta9cfrYDpCUDiMGu91O7dkt_EsbT0J1V0Sq6ZBEwEoPwSDzBOKG56sjSpoZCPB-10uVvIW5xBtCrYEvWFmYPnden_2oIMf3ESQUFD_k7ruUIKN8Ltf26YZpgcA8gxeunpCjD4oqW6VL53sVtdt8mjn9ZhBwzMCLg1bTR1EpkFPotcOQBwE_OeS3FPuiKi2UDdzrlbScxKvAMvVKTw6_GnwAa99AbR_g7KykOfHL8H1sxjyirntK0KxCBfAjmobVCBK9nnCyl67GZfD7HN4EzJt85XAjdrDXuok3ONz5RXnC-qBnbwvmYlA4d-qnMtqJ7wKdzajNqYlpUljOxSgN-V-GBvET00to5mS6ETKEITWj9mbcHgYl3pqiq5vHAlv22fnPm-qF0gonj6Km64nDFkwL48bahlqFMDtcX2H-BW_UJf33g0WkwnQKHBk066c9RKS-MuYppSZbVFU51kjIM6dRDm7-4mFknZ5upZVnxoUGip2uCz0f8raH7k3RGMU2_NzYa2UpLkepmc3-Qwi3QcOSAPHvaj3UnURlapAe0r4xydZPJNnB5gsPId2kmz56hEjFFumevbyBDVUchHGmyJMMlkIqPCnpq2opkZacnWvTvaGPZiL-LszeBRBmMxlJ6cPlJVk6Z6RfZc0bjyVCE8RAPivyrWCavEBAagElf1GGei__Ns52rvZrDwpqQVUBa20y7eSGAwGtTI=w2144-h1410-no?authuser=0",
+        thunbnail: "https://lh3.googleusercontent.com/pw/AMWts8BWvo9Qfl5trBrXooN1sc6NCLodEV-4rRUOgnHRtQJgidU9H1sQG8PGWy9va29gPNfvyuT1ffTqYsvdQ2LFJ0fjq-xaXO_bjpK0yvZc85f1OfppMHYATIuGjnH_tIaV9xXJu7TfXX4ih8mwnX4HOtH1bWD8gJe0Mw2lCjTftuyttJRjRp5jBYyrIg-jmjsBTtMREZLyAvbsMPSyjd9PRdAnc4ZFxIKzCo4qeCLpQiWsLgjBLkuDTl3k5zqicumFcnFnwmIlg1C9o8O3SDreJ_iY_SHL07nGoX591AeJHx6oCfTiEbENSOhd1DzPxkt0dYqbpUfabuj2pZXSM745UqMQH23xGSRzYP9N88z-axhBJsPs3zH0QncUHMp-uHnp3eEK9ntckQZN23Na68vsFzHtAw4lwGXMt7nZ91ddwYRKsYcajUpJlDSLLoQMKmwi9IbDREuUgz9R8XlFwLdZfa3nvB_2OD0o_4XJJkZ8omYAFoTCwpoRkiUKuA-CB9v4C79zQ5-M6kKUmoMf8iT2i9y8LPUOCq1eqa5dpTPVB6THdCqa8X--QsGqmrKNaVcyk8XZ7I18gkC7ZlJslPwQS9QqLEFgeJ_OnvgLZfrJeIed9Gr3MMcRLgzixh-AaMypYCrQF8UmOtAuYDlvhqiTEbPnvfUhO7jh6Okd2q0DrY3lCBA8vX32dDccleOSLY15hEVC6Bzg3f9ATI0rO89WfisOC7OSIIpIBau_UoCSL4-FdkD26EGyi4AaYjfDwSBenZugbPfUDZESO49hd7J3v2X_FeQ0YwIm-D30S3dCVs2vtwbisBO5QvHXo8qTiLGFGHOYfxKFiqK8MAbchqdDrtBnjq77AK67zueItyIz3q4krnK7xlUHL0EAvte0WAg65XemthOxagzGcX6WPRuQwg=w2250-h1480-s-no?authuser=0",
         title: "Dominican Soul",
         tags: ["React", "Sass", "Bootstrap"],
-        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        paragraph: "Dominican Soul is a travel and tourism site that promotes the people, places, things, culture, and cuisine of Felipe de Puerto Plata of the Dominican Republic and its surrounding areas.",
         codelink: "https://github.com/newdevmike22/Dominican-Soul",
         projectlink: "https://www.dominicansoul.com/",
-        projectlinkText: "Visit Dominican Soul",
+        projectlinkText: "Visit dominicansoul.com",
     },
     {
         thunbnail: "https://lh3.googleusercontent.com/x49jlf3g-HRt94MfctvOZw6cW0xYEwmWnY8AqECPhrYQy9wRuUE_LAcp7IJFTJR9nTQKV5kh04krPU-5IKBHQ9Hkn_EKJ7C7NT4LrF03rqB6iwBynsmMCUIETrutYg84prs4zBQqu13nqSLDZ07oEYN0NuBfTUVD98ICVDlhibKyHi07pQ-nEeLJqj0oPWPR16emAIbF51cMd6bUt5kiWWGQm4xMHSHHEUcta9cfrYDpCUDiMGu91O7dkt_EsbT0J1V0Sq6ZBEwEoPwSDzBOKG56sjSpoZCPB-10uVvIW5xBtCrYEvWFmYPnden_2oIMf3ESQUFD_k7ruUIKN8Ltf26YZpgcA8gxeunpCjD4oqW6VL53sVtdt8mjn9ZhBwzMCLg1bTR1EpkFPotcOQBwE_OeS3FPuiKi2UDdzrlbScxKvAMvVKTw6_GnwAa99AbR_g7KykOfHL8H1sxjyirntK0KxCBfAjmobVCBK9nnCyl67GZfD7HN4EzJt85XAjdrDXuok3ONz5RXnC-qBnbwvmYlA4d-qnMtqJ7wKdzajNqYlpUljOxSgN-V-GBvET00to5mS6ETKEITWj9mbcHgYl3pqiq5vHAlv22fnPm-qF0gonj6Km64nDFkwL48bahlqFMDtcX2H-BW_UJf33g0WkwnQKHBk066c9RKS-MuYppSZbVFU51kjIM6dRDm7-4mFknZ5upZVnxoUGip2uCz0f8raH7k3RGMU2_NzYa2UpLkepmc3-Qwi3QcOSAPHvaj3UnURlapAe0r4xydZPJNnB5gsPId2kmz56hEjFFumevbyBDVUchHGmyJMMlkIqPCnpq2opkZacnWvTvaGPZiL-LszeBRBmMxlJ6cPlJVk6Z6RfZc0bjyVCE8RAPivyrWCavEBAagElf1GGei__Ns52rvZrDwpqQVUBa20y7eSGAwGtTI=w2144-h1410-no?authuser=0",
@@ -33,6 +33,6 @@ export const Project = [
         paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         codelink: "https://github.com/newdevmike22/Dominican-Soul",
         projectlink: "https://www.dominicansoul.com/",
-        projectlinkText: "Visit Dominican Soul",
+        projectlinkText: "Visit dominicansoul.com",
     },
 ]
