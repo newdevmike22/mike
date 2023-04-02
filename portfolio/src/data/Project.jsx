@@ -2,7 +2,7 @@ export const Project = [
     {
         thunbnail: "https://lh3.googleusercontent.com/x49jlf3g-HRt94MfctvOZw6cW0xYEwmWnY8AqECPhrYQy9wRuUE_LAcp7IJFTJR9nTQKV5kh04krPU-5IKBHQ9Hkn_EKJ7C7NT4LrF03rqB6iwBynsmMCUIETrutYg84prs4zBQqu13nqSLDZ07oEYN0NuBfTUVD98ICVDlhibKyHi07pQ-nEeLJqj0oPWPR16emAIbF51cMd6bUt5kiWWGQm4xMHSHHEUcta9cfrYDpCUDiMGu91O7dkt_EsbT0J1V0Sq6ZBEwEoPwSDzBOKG56sjSpoZCPB-10uVvIW5xBtCrYEvWFmYPnden_2oIMf3ESQUFD_k7ruUIKN8Ltf26YZpgcA8gxeunpCjD4oqW6VL53sVtdt8mjn9ZhBwzMCLg1bTR1EpkFPotcOQBwE_OeS3FPuiKi2UDdzrlbScxKvAMvVKTw6_GnwAa99AbR_g7KykOfHL8H1sxjyirntK0KxCBfAjmobVCBK9nnCyl67GZfD7HN4EzJt85XAjdrDXuok3ONz5RXnC-qBnbwvmYlA4d-qnMtqJ7wKdzajNqYlpUljOxSgN-V-GBvET00to5mS6ETKEITWj9mbcHgYl3pqiq5vHAlv22fnPm-qF0gonj6Km64nDFkwL48bahlqFMDtcX2H-BW_UJf33g0WkwnQKHBk066c9RKS-MuYppSZbVFU51kjIM6dRDm7-4mFknZ5upZVnxoUGip2uCz0f8raH7k3RGMU2_NzYa2UpLkepmc3-Qwi3QcOSAPHvaj3UnURlapAe0r4xydZPJNnB5gsPId2kmz56hEjFFumevbyBDVUchHGmyJMMlkIqPCnpq2opkZacnWvTvaGPZiL-LszeBRBmMxlJ6cPlJVk6Z6RfZc0bjyVCE8RAPivyrWCavEBAagElf1GGei__Ns52rvZrDwpqQVUBa20y7eSGAwGtTI=w2144-h1410-no?authuser=0",
         title: "Dominican Soul",
-        tags: ["React", "Sass"],
+        tags: ["React", "Sass", "Bootstrap"],
         paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         codelink: "https://github.com/newdevmike22/Dominican-Soul",
         projectlink: "https://www.dominicansoul.com/",
