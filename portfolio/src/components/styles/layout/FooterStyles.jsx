@@ -10,7 +10,7 @@ export const FooterStyles = styled.footer`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background: ${({ theme }) => theme.colors.blueTwo};
+    background: #4f14a8;
 
     .date {
         font-family: "Poppins", sans-serif;

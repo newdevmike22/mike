@@ -9,7 +9,6 @@ export const Services = () => {
             <ServiceStyles id="services">
                 <SectionHeading>
                     <h1>Services</h1>
-                    <p>Excited To Work With You!</p>
                 </SectionHeading>
                 <ServicesItems>
                     <SingleService>
@@ -17,14 +16,14 @@ export const Services = () => {
                             <FaCode/>
                         </IconWrapper>
                             <h1>Web Development</h1>
-                            <p>I develop frontend web apps using HTML, CSS and JavaScript.</p>
+                            <p>I develop professional-looking front-end web apps for businesses, organizations, and individuals using HTML, CSS, JavaScript, ReactJS, SASS, Styled Components, Bootstrap, and Firestore.</p>
                     </SingleService>
                     <SingleService>
                         <IconWrapper>
                             <FaLaptop/>
                         </IconWrapper>
-                            <h1>Design To HTML</h1>
-                            <p>I create and convert designs into pexil-perfect HTML/CSS websites.</p>   
+                            <h1>Concept To Creation</h1>
+                            <p>From the client who knows what they want to the one who is just brainstorming, I turn concepts/ideas into pixel-perfect, well-designed websites.</p>   
                     </SingleService>
                 </ServicesItems>
             </ServiceStyles>
