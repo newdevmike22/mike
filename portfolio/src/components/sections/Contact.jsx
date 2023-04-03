@@ -5,6 +5,7 @@ import { FaEnvelope } from "react-icons/fa";
 export const Contact = () => {
     return (
         <>
+        <hr/>
         <ContactStyles id="contact">
             <SectionHeading>
                 <h1>Contact</h1>
@@ -12,8 +13,8 @@ export const Contact = () => {
             </SectionHeading>
             <DetailsWrapper>
                 <ContactInfo>
-                    <p>I'd love hear from you. Even if just to say hello. Don't hesitate to reach out! I'll get back to you ASAP!</p>
-                    <p className="call"><strong>1-314-934-0168</strong></p>
+                    <p>I'd love to hear from you, even if it's just a hello. Don't hesitate to reach out. I'll get back to you ASAP!</p>
+                    <p className="call"><strong>1.314.934.0168</strong></p>
                     <div>
                         <a href="mailto:themikedodson@gmail.com">
                             <FaEnvelope/>
