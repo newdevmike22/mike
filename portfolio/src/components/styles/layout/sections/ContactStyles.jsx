@@ -13,9 +13,12 @@ const float = keyframes`
 `;
 
 export const ContactStyles = styled.section`
-    min-height: 90vh;
-    padding: 5rem 4rem;
+    padding: 6rem 4rem 4rem 4rem;
     width: 100%;
+
+    @media(max-width: ${({theme}) => theme.mobile}) {
+        padding-bottom: 1rem;
+    }
 `;
 
 export const DetailsWrapper = styled.div`

@@ -121,6 +121,7 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li`
     margin: 0.2rem 0.4rem 0.2rem 0.4rem;
+    font-size: 1.4rem;
 
     &:last-child {
         margin-right: 0;

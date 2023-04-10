@@ -38,12 +38,11 @@ const wave = keyframes`
 `;
 
 export const AboutStyles = styled.section`
-    min-height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10rem 0 5rem 0;
+    padding: 10rem 0 6rem 0;
 
     @media(max-width: ${({ theme }) => theme.mobile }) {
         flex-direction: column;
