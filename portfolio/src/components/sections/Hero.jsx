@@ -32,7 +32,7 @@ export const Hero = () => {
                 <SocialIcon href="https://twitter.com/DreamosophyMike" target="_blank">
                     <FaTwitter/>
                 </SocialIcon>
-                <SocialIcon href="https://twitter.com/DreamosophyMike" target="_blank">
+                <SocialIcon href="mailto:themikedodson@gmail.com" target="_blank">
                     <FaEnvelope/>
                 </SocialIcon>
             </HeroSocialIcons>
