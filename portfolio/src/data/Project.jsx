@@ -27,12 +27,12 @@ export const Project = [
         projectlinkText: "Visit creativelithoinc.net",
     },
     {
-        thunbnail: "https://lh3.googleusercontent.com/x49jlf3g-HRt94MfctvOZw6cW0xYEwmWnY8AqECPhrYQy9wRuUE_LAcp7IJFTJR9nTQKV5kh04krPU-5IKBHQ9Hkn_EKJ7C7NT4LrF03rqB6iwBynsmMCUIETrutYg84prs4zBQqu13nqSLDZ07oEYN0NuBfTUVD98ICVDlhibKyHi07pQ-nEeLJqj0oPWPR16emAIbF51cMd6bUt5kiWWGQm4xMHSHHEUcta9cfrYDpCUDiMGu91O7dkt_EsbT0J1V0Sq6ZBEwEoPwSDzBOKG56sjSpoZCPB-10uVvIW5xBtCrYEvWFmYPnden_2oIMf3ESQUFD_k7ruUIKN8Ltf26YZpgcA8gxeunpCjD4oqW6VL53sVtdt8mjn9ZhBwzMCLg1bTR1EpkFPotcOQBwE_OeS3FPuiKi2UDdzrlbScxKvAMvVKTw6_GnwAa99AbR_g7KykOfHL8H1sxjyirntK0KxCBfAjmobVCBK9nnCyl67GZfD7HN4EzJt85XAjdrDXuok3ONz5RXnC-qBnbwvmYlA4d-qnMtqJ7wKdzajNqYlpUljOxSgN-V-GBvET00to5mS6ETKEITWj9mbcHgYl3pqiq5vHAlv22fnPm-qF0gonj6Km64nDFkwL48bahlqFMDtcX2H-BW_UJf33g0WkwnQKHBk066c9RKS-MuYppSZbVFU51kjIM6dRDm7-4mFknZ5upZVnxoUGip2uCz0f8raH7k3RGMU2_NzYa2UpLkepmc3-Qwi3QcOSAPHvaj3UnURlapAe0r4xydZPJNnB5gsPId2kmz56hEjFFumevbyBDVUchHGmyJMMlkIqPCnpq2opkZacnWvTvaGPZiL-LszeBRBmMxlJ6cPlJVk6Z6RfZc0bjyVCE8RAPivyrWCavEBAagElf1GGei__Ns52rvZrDwpqQVUBa20y7eSGAwGtTI=w2144-h1410-no?authuser=0",
+        thunbnail: "https://lh3.googleusercontent.com/pw/AMWts8BfKXonlGOxsJ3zWecVoYIRl7Kkot-fFMxkRRQp3ksjYwdSOZWpDkVDFLTKFjm3CfYIcXHjgrHcWr8hQ-l8JYa7XbLTFBGTXoEsHxyWu3OB2eDDMCzDL7KkrtemavehNgTzniezTXMFomQE2fIf2foWIFT34jbKMRfq_lS63_g3jqx1RpzYmXYvFYGbMYSliUkZ9Gfb_nEuL6Jx_epCZGJnQklYnWUh4GKzQsMiK7sPYn_CsAAMCXInbXAnmZR7RAq_mqJehtzgc7BpHeGK2O3bx8A7AQ_WR03htjT1FYggdslHAp1ukvCZLQTa_pu8Pf1kMVjY2n5byU_Bk7GEUHC9KWPhR7n0Iav0y-zIc-1IvH1r6LSlzzx5RpdoG8sOf49SxVWMIBDU81_0f2WyThWBWfCt3NemTgAikP696-7goKVc3uwKSXmfIMUivCV0yNeeRPm_gi742WsMTRoBKXiSKobFi0VWryQogzD0OkZbEXIO2vcaNZkfV1QwIKBpn3j3BKKKSmMuqWc2mfwN9Ui1f7fIrCCdK2q73AEG6CjydDKVs6aLr2-JPBSH2C-jH4diyBXGwxcqLF9kOeUdGH9V9KIYy6MDm8WBdztgtDks5Emvdc1Envx4Clj4igNllEbrFKNmqdfpyBXGl9Q0ZInZPhwtfF1QHOPbIGXKIieKpka6A7ww8gdxsO-lae4Hi8wodkJkkohmzVNtuskTNze-UttQe3sRk2n66qWrW-ljmP81Ac-E7BvSofy14lwU0a6OpDXzLPezNcPWHxoQCRAmUj9U-vWbrcC7lY-T2ePjmvpGPaeXR40rxp3WkyMByrzypT_awqyPIW2H_raf41ejrEicezYk4h7E_5Dpf1JRy8eIAiZM7A1XQ7rtapsC-X75tZQxVUxIU8zXt3HzTA=w2204-h1450-s-no?authuser=0",
         title: "Raymond Law Live",
         tags: ["React", "Sass", "Bootstrap", "Firestore"],
         paragraph: 'Melvin L. Raymond is a St. Louis, MO-based Attorney & Counselor at Law. He shares legal advice on his YouTube channel Raymond Law Live. His motto is, "When you fight, know your rights!" ',
-        codelink: "https://github.com/newdevmike22/Dominican-Soul",
-        projectlink: "https://www.dominicansoul.com/",
-        projectlinkText: "Visit dominicansoul.com",
+        codelink: "https://github.com/newdevmike022/Raymond-Law-Live",
+        projectlink: "https://raymondlawlive.com/home",
+        projectlinkText: "Visit raymondlawlive.com",
     },
 ]
