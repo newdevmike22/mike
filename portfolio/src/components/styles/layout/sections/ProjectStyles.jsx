@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProjectStyles = styled.section`
     min-height: 90vh;
-    padding: 10rem 0 5rem 0;
+    padding: 6rem 0 0 0;
     width: 100%;
 `;
 

@@ -23,8 +23,8 @@ export const Project = [
         tags: ["HTML", "CSS", "Bootstrap", "PHP"],
         paragraph: "Creative Litho Inc. is a full-service, locally owned, family-operated union printing and graphics company. Located in St. Louis's historic Cherokee Street business district, they offer their clients a wide variety of copy, printing, design, and bindery services.",
         codelink: "https://github.com/MIGHTMIKE1968/CreativeLitho",
-        projectlink: "https://creativelithoinc.net/index.php",
-        projectlinkText: "Visit creativelithoinc.net",
+        projectlink: "https://www.creativelithoinc.com/",
+        projectlinkText: "Visit creativelithoinc.com",
     },
     {
         thunbnail: "https://lh3.googleusercontent.com/pw/AMWts8BfKXonlGOxsJ3zWecVoYIRl7Kkot-fFMxkRRQp3ksjYwdSOZWpDkVDFLTKFjm3CfYIcXHjgrHcWr8hQ-l8JYa7XbLTFBGTXoEsHxyWu3OB2eDDMCzDL7KkrtemavehNgTzniezTXMFomQE2fIf2foWIFT34jbKMRfq_lS63_g3jqx1RpzYmXYvFYGbMYSliUkZ9Gfb_nEuL6Jx_epCZGJnQklYnWUh4GKzQsMiK7sPYn_CsAAMCXInbXAnmZR7RAq_mqJehtzgc7BpHeGK2O3bx8A7AQ_WR03htjT1FYggdslHAp1ukvCZLQTa_pu8Pf1kMVjY2n5byU_Bk7GEUHC9KWPhR7n0Iav0y-zIc-1IvH1r6LSlzzx5RpdoG8sOf49SxVWMIBDU81_0f2WyThWBWfCt3NemTgAikP696-7goKVc3uwKSXmfIMUivCV0yNeeRPm_gi742WsMTRoBKXiSKobFi0VWryQogzD0OkZbEXIO2vcaNZkfV1QwIKBpn3j3BKKKSmMuqWc2mfwN9Ui1f7fIrCCdK2q73AEG6CjydDKVs6aLr2-JPBSH2C-jH4diyBXGwxcqLF9kOeUdGH9V9KIYy6MDm8WBdztgtDks5Emvdc1Envx4Clj4igNllEbrFKNmqdfpyBXGl9Q0ZInZPhwtfF1QHOPbIGXKIieKpka6A7ww8gdxsO-lae4Hi8wodkJkkohmzVNtuskTNze-UttQe3sRk2n66qWrW-ljmP81Ac-E7BvSofy14lwU0a6OpDXzLPezNcPWHxoQCRAmUj9U-vWbrcC7lY-T2ePjmvpGPaeXR40rxp3WkyMByrzypT_awqyPIW2H_raf41ejrEicezYk4h7E_5Dpf1JRy8eIAiZM7A1XQ7rtapsC-X75tZQxVUxIU8zXt3HzTA=w2204-h1450-s-no?authuser=0",
